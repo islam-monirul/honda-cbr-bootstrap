@@ -11,7 +11,13 @@
 }
 
 /* typography style */
+.text-grey-color{
+     color: #6C6C6C;
+}
 
+.text-blue-color{
+     color: #23A6F0;
+}
 
 /* color */
 .bg-header-color{
@@ -20,6 +26,10 @@
 
 .theme-color-orange{
      color: #E76F51;
+}
+
+.icon-star-color{
+     fill: #E77C40;
 }
 
 
