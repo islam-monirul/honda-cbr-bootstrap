@@ -1,7 +1,8 @@
-/* Using google font (Poppins) */
+/*---------- Using google font (Poppins) ----------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* variable declare */
+
+/*---------- variable declare ----------*/
 :root{
      --color-orange1: #E76F51;
      --color-orange2: #E77C40;
@@ -16,7 +17,9 @@
      --color-black: #000;
 }
 
-/* global reset and font set */
+
+
+/*---------- global reset and font set ----------*/
 *,
 *::before,
 *::after{
@@ -26,7 +29,9 @@
      font-family: 'Poppins', sans-serif;
 }
 
-/* typography style */
+
+
+/*---------- typography style ----------*/
 .text-grey-color{
      color: var(--color-grey-dark2);
 }
@@ -52,7 +57,9 @@
 }
 
 
-/* color */
+
+
+/*---------- color ----------*/
 .bg-header-color{
      background-color: var(--color-dark-green);
 }
@@ -74,7 +81,9 @@
 }
 
 
-/* button styling */
+
+
+/*---------- button styling ----------*/
 .bg-btn-color-variation1{
      color: var(--color-white);
      background-color: var(--color-orange1);
@@ -87,8 +96,22 @@
      border: 2px solid var(--color-orange1);
 }
 
+.bg-btn-color-variation2{
+     background-color: transparent;
+     color: var(--color-orange1);
+     border: 2px solid var(--color-orange1);
+}
 
-/* image styling */
+.bg-btn-color-variation2:hover{
+     color: var(--color-white);
+     background-color: var(--color-orange1);
+     border: 2px solid var(--color-orange1);
+}
+
+
+
+
+/*---------- image styling ----------*/
 .grayscale-effect{
      -webkit-filter: grayscale(100%); 
      -moz-filter: grayscale(100%);
@@ -98,7 +121,9 @@
 }
 
 
-/* accordion item styling */
+
+
+/*---------- accordion item styling ----------*/
 .accordion-button:not(.collapsed) {
      color: var(--color-black);
      background-color: var(--color-white);
@@ -107,11 +132,25 @@
 
 
 
- /* spacing */
+
+
+ /*---------- spacing ----------*/
 .extra-spacing{
      padding-left: 20px;
 }
 
 .custom-width-45{
      width: 45%;
+}
+
+.custom-width-90{
+     width: 90%;
+}
+
+
+
+
+/*---------- custom box shadow  ----------*/
+.shadow-custom-sm{
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 }
