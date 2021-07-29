@@ -10,10 +10,20 @@
      font-family: 'Poppins', sans-serif;
 }
 
+/* typography style */
+
+
+/* color */
 .bg-header-color{
      background-color: #264653;
 }
 
+.theme-color-orange{
+     color: #E76F51;
+}
+
+
+/* button styling */
 .bg-btn-color-variation1{
      color: #fff;
      background-color: #E76F51;
@@ -24,4 +34,14 @@
      color: #E76F51;
      background-color: transparent;
      border: 2px solid #E76F51;
+}
+
+
+/* image styling */
+.grayscale-effect{
+     -webkit-filter: grayscale(100%); 
+     -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+     filter: grayscale(100%);
 }
